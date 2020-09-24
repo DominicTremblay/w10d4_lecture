@@ -35,11 +35,11 @@
 - create `.env` file with the following
 
 ```js
-DB_HOST = localhost;
-DB_USER = labber;
-DB_PASS = labber;
-DB_NAME = final_project;
-DB_PORT = 5432;
+DB_HOST = localhost
+DB_USER = labber
+DB_PASS = labber
+DB_NAME = final_project
+DB_PORT = 5432
 ```
 
 - install 'pg'
