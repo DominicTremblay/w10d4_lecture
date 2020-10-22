@@ -9,14 +9,14 @@
 
 ## Workflow
 
-1. On master, pull from origin master
+1. On main, pull from origin main
 2. Create a feature branch (feature/feature_name)
-3. Update your branch with the latest changes from master
+3. Update your branch with the latest changes from main
 
-- `git checkout master`
-- `git pull origin master`
+- `git checkout main`
+- `git pull origin main`
 - `git checkout feature/feature_name` (use git branch as needed)
-- `git merge master` (merge master into the feature branch)
+- `git merge main` (merge main into the feature branch)
 - resolve conflicts and commit changes
 
 4.  Push the feature branch to github
@@ -28,4 +28,4 @@
 
 - you should not merge your own pull request
 
-6. checkout to master and pull again from origin master
+6. checkout to main and pull again from origin main
