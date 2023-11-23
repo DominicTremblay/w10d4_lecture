@@ -1,0 +1,9 @@
+INSERT INTO movie_genres (movie_id, genre_id) VALUES (1,1);
+INSERT INTO movie_genres (movie_id, genre_id) VALUES (1,2);
+INSERT INTO movie_genres (movie_id, genre_id) VALUES (2,1);
+INSERT INTO movie_genres (movie_id, genre_id) VALUES (2,6);
+INSERT INTO movie_genres (movie_id, genre_id) VALUES (3,1);
+INSERT INTO movie_genres (movie_id, genre_id) VALUES (3,2);
+INSERT INTO movie_genres (movie_id, genre_id) VALUES (3,3);
+INSERT INTO movie_genres (movie_id, genre_id) VALUES (4,6);
+INSERT INTO movie_genres (movie_id, genre_id) VALUES (4,9);
