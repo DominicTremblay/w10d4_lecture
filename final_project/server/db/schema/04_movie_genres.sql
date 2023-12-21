@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS movie_genres CASCADE;
+CREATE TABLE movie_genres (
+    id SERIAL PRIMARY KEY NOT NULL,
+    movie_id INTEGER REFERENCES movies(id) ON DELETE CASCADE,
+    genre_id INTEGER REFERENCES genres(id) ON DELETE CASCADE
+);
